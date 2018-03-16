@@ -65,10 +65,8 @@ fn main() {
             Ordering::Greater => println!("Too large!"),
             Ordering::Equal => {
                 println!("{}", fireworks);
-                break;
+                break; // break out of the loop 
             }
         }
     }
-
-    //println!("The secret is: {}", secret);
 }
